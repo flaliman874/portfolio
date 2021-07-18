@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="user">
+                    <img class="user_avatar" src="img/user.png" alt="">
+                    <div class="user_content">
+                        <div class="user_name">
+                            Əliman <br> Məmmədov
+                        </div>
+                        <div class="user_prof">
+                            Full-Stack Web Developer
+                        </div>
+                    </div>
+                </div>
+                <div class="nav" id="nav">
+                    <a href="#" class="nav_link" data-scroll="#work">İşlərim</a>
+                    <a href="#" class="nav_link" data-scroll="#about">Haqqımda</a>
+                    <a href="#" class="nav_link" data-scroll="#blog">Bloq</a>
+                    <a href="mailto:alimanm874@gmail.com" class="nav_link">Əlaqə</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro_inner">
+                <div class="intro_content">
+                    <h2 class="intro_subtitle">Salam Mən</h2>
+                    <h1 class="intro_title">Əliman Məmmədov</h1>
+                    <div class="intro_text">Full-Stack Web Developer kimi xidmət göstərirəm</div>
+
+                    <div class="social">
+                        <a class="social_link" href="https://www.udemy.com/user/aliman-mammadov/">
+                            <img src="icons/udemy.png" alt="Udemy">
+                        </a>
+                        <a class="social_link" href="#">
+                            <img src="icons/youtube.png" alt="Youtube">
+                        </a>
+                        <a class="social_link" href="#">
+                            <img src="icons/linkedin.png" alt="LinkedIn">
+                        </a>
+                        <a class="social_link" href="#">
+                            <img src="icons/facebook.png" alt="Facebook">
+                        </a>
+                        <a class="social_link" href="#">
+                            <img src="icons/instagram.png" alt="Instagram">
+                        </a>
+                        <a class="social_link" href="#">
+                            <img src="icons/twitter.png" alt="twitter">
+                        </a>
+                    </div>
+
+                    <button class="btn" type="button" data-modal="#modal_resume">CV ilə tanış olun</button>
+                </div>
+                <img class="intro_photo" src="img/photo.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="works" id="work">
+        <div class="container">
+            <h3 class="my_work">Mənim işlərim</h3>
+            <div class="portfolio">
+                <div class="work">
+                <img class="work_photo" src="img/worklogo.jpg" alt="">
+                <div class="work_content">
+                    <div class="work_cat">Kateqoriya: Web Sayt</div>
+                    <div class="work_title">
+                        Alfaparf Milano Azərbaycan
+                        <div class="work_date">2021</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="work">
+                <img class="work_photo" src="img/worklogo.jpg" alt="">
+                <div class="work_content">
+                    <div class="work_cat">Kateqoriya: Web Sayt</div>
+                    <div class="work_title">
+                        Alfaparf Milano Azərbaycan
+                        <div class="work_date">2021</div>
+                    </div>
+                    </div>
+                </div>
+                <div class="work">
+                <img class="work_photo" src="img/worklogo.jpg" alt="">
+                <div class="work_content">
+                    <div class="work_cat">Kateqoriya: Web Sayt</div>
+                    <div class="work_title">
+                        Alfaparf Milano Azərbaycan
+                        <div class="work_date">2021</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about_inner">
+                <img class="about_photo" src="img/designer_photo.jpg" alt="Aliman Mammadov">
+                
+                <div class="about_content">
+                    <h3 class="about_subtitle">Mənim haqqımda</h3>
+                    <h2 class="about_title">Məmmədov Əliman Kimdir?</h2>
+                    <div class="about_text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit hic cupiditate ut optio error eum repudiandae maiores delectus provident iste! Dolor recusandae amet consectetur quam numquam, id aliquam voluptatem distinctio.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit hic cupiditate ut optio error eum repudiandae maiores delectus provident iste! Dolor recusandae amet consectetur quam numquam, id aliquam voluptatem distinctio.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit hic cupiditate ut optio error eum repudiandae maiores delectus provident iste! Dolor recusandae amet consectetur quam numquam, id aliquam voluptatem distinctio.</p>
+                    </div>
+                    
+                    <button class="btn" type="button" data-modal="#modal_resume">CV ilə tanış olun</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div class="container">
+            <div class="reviews_inner">
+                <div class="reviews_text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi porro quos cumque eum praesentium corporis, similique accusamus! Quia eveniet distinctio, esse suscipit ea vero rem reprehenderit, nemo quod consectetur aliquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vel labore ea similique assumenda beatae molestiae vitae nam sint soluta illum, voluptatem tempore, dolorum porro natus alias corrupti, sunt magnam.</p>
+                </div>
+            </div>
+            <div class="reviews_author">
+                <img src="img/udemy_logo.png" alt="">
+               <div class="reviews_company">Udemy</div>
+               <div class="reviews_name">Şagirdlər</div>
+               <div class="reviews_rating">
+                       <img class="reviews_star" src="img/star.png" alt="">
+                       <img class="reviews_star" src="img/star.png" alt="">
+                       <img class="reviews_star" src="img/star.png" alt="">
+                       <img class="reviews_star" src="img/star.png" alt="">
+                       <img class="reviews_star" src="img/star.png" alt="">
+               </div>
+           </div>
+        </div>
+    </div>
+    
+    <div class="courses" id="blog">
+        <div class="container">
+            <h3 class="my_work margin">Keçdiyim Kurslar</h3>
+            <div class="subtitle">Aldığım Təhsil və praktikam nəticəsində profesionallaşmışam.</div>
+            <div class="courses_inner">
+                <div class="course">
+                    <img class="course_photo" src="img/Angular logo.png" alt="">
+
+                    <div class="course_content">
+                        <h4 class="course_name">WEB-Developer 2021</h4>
+                        <div class="course_cat">Web Developer</div>
+                        <div class="course_text">
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eaque consequatur dolore aspernatur repellendus sint, rerum quos soluta blanditiis adipisci vitae quod. Neque porro id assumenda distinctio odio et consectetur.
+                            </p> 
+                        </div>
+                    </div>
+
+                    <a href="#">
+                        <button class="btn btn_edit">Ətraflı</button>
+                    </a>
+                </div>
+                <div class="course">
+                    <img class="course_photo" src="img/Angular logo.png" alt="">
+
+                    <div class="course_content">
+                        <h4 class="course_name">WEB-Developer 2021</h4>
+                        <div class="course_cat">Web Developer</div>
+                        <div class="course_text">
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eaque consequatur dolore aspernatur repellendus sint, rerum quos soluta blanditiis adipisci vitae quod. Neque porro id assumenda distinctio odio et consectetur.
+                            </p> 
+                        </div>
+                    </div>
+
+                    <a href="#">
+                        <button class="btn btn_edit">Ətraflı</button>
+                    </a>
+                </div>
+                <div class="course">
+                    <img class="course_photo" src="img/Angular logo.png" alt="">
+
+                    <div class="course_content">
+                        <h4 class="course_name">WEB-Developer 2021</h4>
+                        <div class="course_cat">Web Developer</div>
+                        <div class="course_text">
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eaque consequatur dolore aspernatur repellendus sint, rerum quos soluta blanditiis adipisci vitae quod. Neque porro id assumenda distinctio odio et consectetur.
+                            </p> 
+                        </div>
+                    </div>
+
+                    <a href="#">
+                        <button class="btn btn_edit" >Ətraflı</button>
+                    </a>
+                </div>
+            </div>
+            <div class="link">
+                <a class="course_link" href="#">Daha çoxuna bax</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer_info">
+                    <div class="footer_copyright">
+                        &copy; 2021 Əliman Məmmədov
+                    </div>
+                    <div class="footer_social">
+                        <a href="#">
+                            <img class="footer_link" src="icons/linkedin_icon.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="footer_link" src="icons/facebook_icon.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="footer_link" src="icons/instagram_icon.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="footer_link" src="icons/twitter_icon.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_nav">
+                    <a href="#" class="footer_nav_link" data-scroll="#work">İşlərim</a>
+                    <a href="#" class="footer_nav_link" data-scroll="#about">Haqqımda</a>
+                    <a href="#" class="footer_nav_link" data-scroll="#blog">Bloq</a>
+                    <a href="mailto:alimanm874@gmail.com" class="footer_nav_link">Əlaqə</a>
+                </div>    
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal_resume">
+        <div class="modal_dialog">
+            <h3 class="modal_title">TƏRCÜMEYİ-HAL</h3>
+            <img class="modal_photo" src="img/resume.jpg" alt="">
+            <a class="btn btn_edit btn_modal" href="img/resume.jpg" download>Endir</a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
